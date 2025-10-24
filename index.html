@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>My portfolio</title>
+
+<meta name="description" content="Portfolio of Linda Jobela, a web development student passionate about building clean, responsive, and innovative websites.">
+<meta name="keywords" content="Linda Jobela, web developer, HTML, CSS, JavaScript, portfolio, projects">
+<meta name="author" content="Linda Jobela">
+
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
+<a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
     <h1>Linda Jobela</h1>
-    <button id="theme-toggle">Toggle Dark Mode</button>
+    <button id="theme-toggle" aria-label="Toggle dark mode">Toggle Dark Mode</button>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
@@ -21,39 +26,43 @@
     </nav>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <img src="Linda.jpg" alt="Your Photo" />
-    <p>Hello! I am Linda Jobela, a web development student passionate about creating websites and learning new technologies. I am really determined in writing clean code and creating solutions that one day would change the world.</p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="lindajobela.webp" alt=" my Portrait " loading="lazy" width="300" height="300" />
+      <p>Hello! I am Linda Jobela, a web development student passionate about creating websites and learning new technologies. I am really determined in writing clean code and creating solutions that one day would change the world.</p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML5 & CSS3</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>SQL</li>
-    </ul>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+      </ul>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <img src="project.jpg" alt="Sample Project" />
-      <p>This is one of my sample projects where I built a responsive website using HTML, CSS, and JavaScript.</p>
-    </div>
-  </section>
-<section id="contact"
-  <h2>contact</h2>
-  <p>you can reach me at:</p>
-  <li><strong>Email:</strong>lindajobela38@gmail.com</li>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="projectlinda.webp" alt=" This is the Sample of my project  I have created" loading="lazy" width="300"  height="300" />
+        <p>This is one of my sample projects where I built a responsive website using HTML, CSS, and JavaScript.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at:</p>
+      <p>Email: <a href="mailto:lindajobela38@gmail.com">lindajobela38@gmail.com</a></p>
+    </section>
+  </main>
+
   <footer>
-    <p>Contact: Lindajobela38@gmail.com.com</p>
+    <p>Contact: <a href="mailto:lindajobela38@gmail.com">lindajobela38@gmail.com</a></p>
     <p>&copy; 2025 Linda Jobela. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
